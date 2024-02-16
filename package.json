@@ -1,0 +1,15 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "learning about design patterns in ts, oop and solid principles",
+  "repository": "git@github.com-yawmiej:Yawmiej/ts-design-patterns.git",
+  "author": "Abdullateef Abiodun <yomlateef@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
